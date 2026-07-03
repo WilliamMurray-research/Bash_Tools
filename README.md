@@ -9,28 +9,26 @@ Small Bash scripts I use for system monitoring and hardware control. Nothing fan
 Controls the fan speed on my NVIDIA GPU (Tesla A2).  
 Useful for keeping temps stable during long runs.
 
-Example:
-```
-bash gpu_fan.sh --set 70
-```
-
 ### **Resource Tracker**
 Tracks CPU, GPU, memory, and runtime for commands or experiments.
-
-Example:
-```
-bash track_interactive.sh --cmd "python experiment.py"
-```
 
 ---
 
 ## **Structure**
 ```
-bash-tools/
-├── gpu_fan.sh
-├── track_interactive.sh
-├── track_job.sh
+.
+├── FanManagement/
+│   ├── gpu_fan.sh
+│   └── README.md
+│
+├── ResourceTracking/
+│   ├── track_interactive.sh
+│   ├── track_job.sh
+│   └── README.md
+│
+├── LICENSE
 └── README.md
+
 ```
 
 ---
