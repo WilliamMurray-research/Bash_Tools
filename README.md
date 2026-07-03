@@ -29,6 +29,7 @@ bash track_interactive.sh --cmd "python experiment.py"
 bash-tools/
 ├── gpu_fan.sh
 ├── track_interactive.sh
+├── track_job.sh
 └── README.md
 ```
 
