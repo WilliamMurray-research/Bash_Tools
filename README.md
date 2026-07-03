@@ -19,7 +19,7 @@ Tracks CPU, GPU, memory, and runtime for commands or experiments.
 
 Example:
 ```
-bash track.sh --cmd "python experiment.py"
+bash track_interactive.sh --cmd "python experiment.py"
 ```
 
 ---
