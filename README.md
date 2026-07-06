@@ -19,6 +19,7 @@ Tracks CPU, GPU, memory, and runtime for commands or experiments.
 .
 ├── FanManagement/
 │   ├── gpu_fan.sh
+│   ├── gpu_fan_control.service
 │   └── README.md
 │
 ├── ResourceTracking/
