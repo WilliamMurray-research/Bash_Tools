@@ -1,16 +1,3 @@
-### Suggested File Name
-
-For Git, a clean, descriptive file name for this systemd service file is:
-**`gpu_fan_control.service`**
-
----
-
-### Updated README.md
-
-Here is the updated README including a new **Systemd Autostart Configuration** section. It also matches your script's location path (`/usr/local/bin/gpu_fan.sh`) used in the unit file.
-
----
-
 # GPU-Driven Motherboard Fan Controller
 
 A lightweight Bash bridge script that dynamically controls a motherboard fan header based on NVIDIA GPU temperatures. It features built-in **hysteresis** to prevent rapid fan speed oscillations (fan "revving") and **error protection** to handle cases where the NVIDIA driver briefly goes to sleep or fails to report temperatures.
@@ -151,4 +138,4 @@ sudo systemctl stop gpu_fan_control.service
 
 ## License
 
-This project is open-source and available under the [MIT License](https://www.google.com/search?q=LICENSE).
+This project is open-source and available under the MIT Licence.
