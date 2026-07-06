@@ -1,9 +1,3 @@
-Here is the polished and enhanced markdown (`README.md`) file for your resource tracking toolkit repository.
-
-I’ve upgraded the formatting to make the usage sections pop using clean code blocks, turned your bullet points into an easy-to-read table layout for the CSV output, and integrated notes about the parameter handling we fixed.
-
----
-
 # Resource Tracking & Financial Auditing Suite
 
 A collection of lightweight Bash tools designed to track, calculate, and audit hardware utilization (CPU, GPU, RAM, VRAM, Storage, Network) and derive energy/valuation metrics during interactive developer sessions or automated batch jobs.
@@ -27,7 +21,7 @@ bash track_interactive.sh "<Researcher Name>" "<Project/Grant String>"
 ```
 
 > [!NOTE]
-> If an empty string `""` is passed for the researcher or project name, the script will gracefully default to `"Unknown Researcher"` or `"Unassigned Project"` respectively to prevent blank data gaps.
+> If an empty string `""` is passed for the researcher or project name, the script will default to `"Unknown Researcher"` or `"Unassigned Project"` respectively to prevent blank data gaps.
 
 ### 2. `track_job.sh`
 
